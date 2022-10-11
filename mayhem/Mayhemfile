@@ -1,0 +1,6 @@
+project: readtime
+target: readtime_markdown_fuzz
+
+cmds:
+    - cmd: /readtime/fuzz/readtime_markdown_fuzz.py
+      libfuzzer: true
